@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Starter Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Custom styles for this template -->
+    <link href="./css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contract</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#products">Products</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#products">Products One</a>
+              <a class="dropdown-item" href="#products-tow">Products Tow</a>
+              <a class="dropdown-item" href="#">Products Three</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+<!-- Slider Section -->
+    <main role="main" class="container-fluid">
+      <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="background-image: url('img/photo-1613909207039-6b173b755cc1.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="display-4">First Slide</h2>
+                <p class="lead">This is a description for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('img/bruce-mars-FWVMhUa_wbY-unsplash.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="display-4">Second Slide</h2>
+                <p class="lead">This is a description for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('img/d-c-tr-nh-H-6x5Wb5Wq0-unsplash.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="display-4">Third Slide</h2>
+                <p class="lead">This is a description for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
+      </header>
+    </main>
+<!-- Products Section -->
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Women's Black Top</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <div class="col-md-12 col-lg">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="img/img-1.jpg">
+                            <img class="pic-2" src="img/img-2.jpg">
+                        </a>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+<!-- The Modal2 -->
+<div class="modal" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal2 Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Men's Blue Shirt</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal2 body -->
+        <div class="modal-body">
+            <div class="col-md-12 col-lg">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="img/img-3.jpg">
+                            <img class="pic-2" src="img/img-4.jpg">
+                        </a>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Modal2 footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- The Modal3 -->
+<div class="modal" id="myModal3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal3 Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Men's White Shirt</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal3 body -->
+        <div class="modal-body">
+            <div class="col-md-12 col-lg">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="img/img-5.jpg">
+                            <img class="pic-2" src="img/img-6.jpg">
+                        </a>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's White Shirt</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Modal3 footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- The Modal4 -->
+<div class="modal" id="myModal4">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal4 Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Women's White Top</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal4 body -->
+        <div class="modal-body">
+            <div class="col-md-12 col-lg">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="img/img-7.jpg">
+                            <img class="pic-2" src="img/img-8.jpg">
+                        </a>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's White Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Modal4 footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- The Modal5 -->
+<div class="modal" id="myModal5">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal5 Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Women's Red Top</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal5 body -->
+        <div class="modal-body">
+            <div class="col-md-12 col-lg">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="img/img-9.jpeg">
+                            <img class="pic-2" src="img/img-10.jpeg">
+                        </a>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Red Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Modal5 footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- The Modal6 -->
+<div class="modal" id="myModal6">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal6 Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Women's yellow Top</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal6 body -->
+        <div class="modal-body">
+            <div class="col-md-12 col-lg">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="img/img-11.jpeg">
+                            <img class="pic-2" src="img/img-12.jpeg">
+                        </a>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's yellow Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Modal6 footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- The Modal7 -->
+<div class="modal" id="myModal7">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal7 Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Women's Black Top</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal7 body -->
+        <div class="modal-body">
+            <div class="col-md-12 col-lg">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="img/img-13.jpeg">
+                            <img class="pic-2" src="img/img-14.jpeg">
+                        </a>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Modal7 footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- The Modal8 -->
+<div class="modal" id="myModal8">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal8 Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Women's HotPink Top</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal8 body -->
+        <div class="modal-body">
+            <div class="col-md-12 col-lg">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="img/img-15.jpeg">
+                            <img class="pic-2" src="img/img-16.jpeg">
+                        </a>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's HotPink Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Modal footer8 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <h3 class="h1 text-center mt-5 mb-5">Our Products</h3>
+      <div class="row" id="products">
+          <div class="col-md-3 col-sm-6">
+              <div class="product-grid4">
+                  <div class="product-image4">
+                      <a href="#">
+                          <img class="pic-1" src="img/img-1.jpg">
+                          <img class="pic-2" src="img/img-2.jpg">
+                      </a>
+                      <ul class="social">
+                          <li><a href="#" data-tip="Quick View"><i data-toggle="modal" data-target="#myModal" class="fa fa-eye"></i></a></li>
+                          <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                          <li><a href="#" data-tip="View"><i class="fa fa-shopping-cart"></i></a></li>
+                      </ul>
+                      <span class="product-new-label">New</span>
+                      <span class="product-discount-label">-10%</span>
+                  </div>
+                  <div class="product-content">
+                      <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                      <div class="price">
+                          $14.40
+                          <span>$16.00</span>
+                      </div>
+                      <a class="add-to-cart" href="" data-toggle="modal" data-target="#myModal">View</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <div class="product-grid4">
+                  <div class="product-image4">
+                      <a href="#">
+                          <img class="pic-1" src="img/img-3.jpg">
+                          <img class="pic-2" src="img/img-4.jpg">
+                      </a>
+                      <ul class="social">
+                          <li><a href="#" data-tip="Quick View"><i data-toggle="modal" data-target="#myModal2" class="fa fa-eye"></i></a></li>
+                          <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                          <li><a href="#" data-tip="View"><i class="fa fa-shopping-cart"></i></a></li>
+                      </ul>
+                      <span class="product-discount-label">-12%</span>
+                  </div>
+                  <div class="product-content">
+                      <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                      <div class="price">
+                          $17.60
+                          <span>$20.00</span>
+                      </div>
+                      <a data-toggle="modal" data-target="#myModal2" class="add-to-cart" href="">View</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <div class="product-grid4">
+                  <div class="product-image4">
+                      <a href="#">
+                          <img class="pic-1" src="img/img-5.jpg">
+                          <img class="pic-2" src="img/img-6.jpg">
+                      </a>
+                      <ul class="social">
+                          <li><a href="#" data-tip="Quick View"><i data-toggle="modal" data-target="#myModal3" class="fa fa-eye"></i></a></li>
+                          <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                          <li><a href="#" data-tip="View"><i class="fa fa-shopping-cart"></i></a></li>
+                      </ul>
+                      <span class="product-new-label">New</span>
+                      <span class="product-discount-label">-10%</span>
+                  </div>
+                  <div class="product-content">
+                      <h3 class="title"><a href="#">Men's White Shirt</a></h3>
+                      <div class="price">
+                          $14.40
+                          <span>$16.00</span>
+                      </div>
+                      <a class="add-to-cart" data-toggle="modal" data-target="#myModal3" href="">View</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <div class="product-grid4">
+                  <div class="product-image4">
+                      <a href="#">
+                          <img class="pic-1" src="img/img-7.jpg">
+                          <img class="pic-2" src="img/img-8.jpg">
+                      </a>
+                      <ul class="social">
+                          <li><a href="#" data-tip="Quick View"><i data-toggle="modal" data-target="#myModal4" class="fa fa-eye"></i></a></li>
+                          <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                          <li><a href="#" data-tip="View"><i class="fa fa-shopping-cart"></i></a></li>
+                      </ul>
+                      <span class="product-new-label">New</span>
+                      <span class="product-discount-label">-10%</span>
+                  </div>
+                  <div class="product-content">
+                      <h3 class="title"><a href="#">Women's White Top</a></h3>
+                      <div class="price">
+                          $14.40
+                          <span>$16.00</span>
+                      </div>
+                      <a class="add-to-cart" data-toggle="modal" data-target="#myModal4" href="">View</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row" id="products-tow">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid4">
+                <div class="product-image4">
+                    <a href="#">
+                        <img class="pic-1" src="img/img-9.jpeg">
+                        <img class="pic-2" src="img/img-10.jpeg">
+                    </a>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i data-toggle="modal" data-target="#myModal5" class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="View"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">New</span>
+                    <span class="product-discount-label">-10%</span>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Red Top</a></h3>
+                    <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                    </div>
+                    <a class="add-to-cart" data-toggle="modal" data-target="#myModal5" href="">View</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid4">
+                <div class="product-image4">
+                    <a href="#">
+                        <img class="pic-1" src="img/img-11.jpeg">
+                        <img class="pic-2" src="img/img-12.jpeg">
+                    </a>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i data-toggle="modal" data-target="#myModal6" class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="View"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-discount-label">-12%</span>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Yellow Top</a></h3>
+                    <div class="price">
+                        $17.60
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" data-toggle="modal" data-target="#myModal6" href="">View</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid4">
+                <div class="product-image4">
+                    <a href="#">
+                        <img class="pic-1" src="img/img-13.jpeg">
+                        <img class="pic-2" src="img/img-14.jpeg">
+                    </a>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i data-toggle="modal" data-target="#myModal"7 class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="View"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">New</span>
+                    <span class="product-discount-label">-10%</span>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                    <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                    </div>
+                    <a class="add-to-cart" data-toggle="modal" data-target="#myModal7" href="">View</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid4">
+                <div class="product-image4">
+                    <a href="#">
+                        <img class="pic-1" src="img/img-15.jpeg">
+                        <img class="pic-2" src="img/img-16.jpeg">
+                    </a>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i data-toggle="modal" data-target="#myModal8" class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="View"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">New</span>
+                    <span class="product-discount-label">-10%</span>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's HotPink Top</a></h3>
+                    <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                    </div>
+                    <a class="add-to-cart" data-toggle="modal" data-target="#myModal8" href="">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+ 
+<!-- Conteact Section -->
+<section id="contact">
+    <div class="container contact-form">
+      <form method="post">
+          <h3>Drop Us a Message</h3>
+         <div class="row" name="contact-section">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" required/>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required/>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" required/>
+                  </div>
+                  <div class="form-group">
+                      <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                  </div>
+              </div>
+          </div>
+      </form>
+</div>
+</section>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./js/jquery-slim.min.js"><\/script>')</script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/jquery-slim.min.js"></script>
+  </body>
+</html>
